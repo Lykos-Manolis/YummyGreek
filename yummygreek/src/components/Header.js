@@ -8,7 +8,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 
 export default function Header() {
   return (
-    <Navbar expand="lg" className='bg-body-tertiary'>
+    <Navbar expand="lg" className='bg-body-tertiary' data-bs-theme="dark">
       <Container>
         {/* Name-Brand */}
         <LinkContainer to="/">
@@ -22,7 +22,7 @@ export default function Header() {
             />
           </Navbar.Brand>
         </LinkContainer>
-        <Navbar.Brand>Brand text</Navbar.Brand>
+        <Navbar.Brand>YummyGreek</Navbar.Brand>
         {/* Collapsable Navbar Links */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -32,9 +32,6 @@ export default function Header() {
             </LinkContainer>
             <LinkContainer to="/order">
               <Nav.Link>Your Order</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/details">
-              <Nav.Link>Details</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>

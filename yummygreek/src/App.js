@@ -6,7 +6,7 @@ import Header from './components/Header.js';
 import DishList from './components/DishList.js';
 import Home from './pages/Home';
 import Order from './pages/Order';
-import Details from './pages/Details';
+import './assets/customStyle.css';
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
         <Routes>
           <Route path="/"  element={<Home/>} />
           <Route path="/order" element={<Order/>} />
-          <Route path="/details" element={<Details/>} />
         </Routes>
     </Router>
     

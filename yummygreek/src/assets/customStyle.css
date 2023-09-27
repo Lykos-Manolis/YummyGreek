@@ -1,0 +1,100 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+body{
+    background: #014137;
+    color: bisque;
+  }
+  
+h1{
+    filter: drop-shadow(1px 1px 0.5px orange)
+  }
+  
+  .navbar{
+    background: transparent !important;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e4cdb4;
+  }
+
+  .filter-container{
+    margin: 2rem;
+  }
+
+  .navbar-brand{
+    color: #e4cdb4;
+    font-weight: bold;
+  }
+  
+  .card:hover{
+    box-shadow: 4px 4px rgb(175, 194, 0), 6px 6px rgb(139, 123, 0), 8px 8px rgb(149, 56, 9);
+    transform: scale(1.01);
+  }
+  
+  .card{
+    transition: 0.3s;
+    background: #e4cdb4;
+    border: 2px solid #e4cdb4;
+    color: #052040;
+    box-shadow: 0 0px 20px -7px  #e4cdb4;
+  }
+  
+  .card-body{
+      box-shadow: 0 -10px 30px -20px #e1bd96;
+  }
+  
+  .btn-primary{
+    background: #B56576 !important;
+    box-shadow: 2px 2px #6E3C47;
+    border: 0 solid red;
+  }
+  
+  .btn-secondary{
+    box-shadow: 2px 2px #565656;
+    border: none;
+  }
+  
+  .btn-danger{
+    background: #E56B6F;
+    box-shadow: 2px 2px darkred;
+    border: none;
+  }
+  
+  .btn-primary:active{
+    background: #A75B6B !important;
+    border-top: 3px solid #6E3C47 !important;
+    border-left: 3px solid #6E3C47 !important;
+    box-shadow: none;
+  }
+  
+  .btn-secondary:active{
+    border-top: 3px solid #000 !important;
+    border-left: 3px solid #000 !important;
+    box-shadow: none;
+  }
+  
+  .btn-danger:active{
+    border-top: 3px solid darkred !important;
+    border-left: 3px solid darkred !important;
+    box-shadow: none;
+  }
+  
+  .btn-primary:hover{
+    background: #A75B6B;
+    border: 0 solid #A75B6B;
+  }
+  
+  .modal-content{
+    background-color: #014137;
+    box-shadow: 0 0 20px black;
+    border: none;
+  }
+  
+  .modal-body > img{
+    box-shadow: 0 0 4px 1px #e4cdb4;
+  }
+  
+  .badge.bg-secondary{
+    background-color: #01352d !important;
+  }
+  

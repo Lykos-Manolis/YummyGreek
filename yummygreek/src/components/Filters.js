@@ -31,7 +31,7 @@ function Filters(props) {
     };
 
     return (
-    <div>
+    <div className='filter-container'>
         <Dropdown style={{display: 'inline-block', margin: '1rem'}}>
             <Dropdown.Toggle variant="primary" id="dropdown-basic">
                 Dietary Preferences
