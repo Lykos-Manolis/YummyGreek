@@ -1,0 +1,166 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Moussaka",
+      "description": "Moussaka is a delicious and hearty traditional Greek dish with layers of thinly sliced eggplant, seasoned ground beef or lamb, and a creamy béchamel sauce. It's a beloved comfort food in Greece and is often enjoyed during special occasions and family gatherings. This savory dish is a culinary masterpiece that combines the richness of ground meat, the earthiness of eggplant, and the smoothness of béchamel sauce.",
+      "price": 15.99,
+      "image": "https://placehold.co/400x300?text=Moussaka",
+      "ingredients": [
+        "Thinly sliced eggplant",
+        "Seasoned ground beef or lamb",
+        "Onions",
+        "Garlic",
+        "Tomatoes",
+        "Red wine",
+        "Cinnamon",
+        "Nutmeg",
+        "Béchamel sauce"
+      ],
+      "tags": {
+        "dietaryPreferences": ["vegan", "gluten-free"],
+        "allergens": ["contains-nuts", "contains-gluten"]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Greek Salad",
+      "description": "Greek Salad is a fresh and vibrant dish featuring a colorful medley of ingredients, including ripe tomatoes, crisp cucumbers, Kalamata olives, and creamy feta cheese. It's a perfect choice for a light and healthy meal. This classic salad bursts with Mediterranean flavors and is known for its simplicity and freshness.",
+      "price": 10.99,
+      "image": "https://placehold.co/400x300?text=Greek+Salad",
+      "ingredients": [
+        "Ripe tomatoes",
+        "Crisp cucumbers",
+        "Kalamata olives",
+        "Creamy feta cheese",
+        "Red onions",
+        "Extra virgin olive oil",
+        "Fresh oregano",
+        "Red wine vinegar"
+      ],
+      "tags": {
+        "dietaryPreferences": ["vegetarian", "lactose-free"],
+        "allergens": []
+      }
+    },
+    {
+      "id": 3,
+      "name": "Souvlaki",
+      "description": "Souvlaki is a popular Greek street food made of grilled skewers of marinated chicken or pork, served with warm pita bread and a generous dollop of tzatziki sauce. This dish is loved for its deliciously tender and flavorful meat, as well as its satisfying combination of textures and flavors.",
+      "price": 12.99,
+      "image": "https://placehold.co/400x300?text=Souvlaki",
+      "ingredients": [
+        "Marinated chicken or pork",
+        "Pita bread",
+        "Tzatziki sauce"
+      ],
+      "tags": {
+        "dietaryPreferences": ["lactose-free"],
+        "allergens": []
+      }
+    },
+    {
+      "id": 4,
+      "name": "Spanakopita",
+      "description": "Spanakopita is a delightful Greek pastry made of flaky filo dough filled with a savory mixture of spinach, feta cheese, and aromatic herbs. Baked to golden perfection, this dish is known for its crispiness and savory filling. It's a favorite appetizer or snack in Greek cuisine.",
+      "price": 9.99,
+      "image": "https://placehold.co/400x300?text=Spanakopita",
+      "ingredients": [
+        "Flaky filo dough",
+        "Spinach",
+        "Feta cheese",
+        "Aromatic herbs"
+      ],
+      "tags": {
+        "dietaryPreferences": ["vegetarian"],
+        "allergens": []
+      }
+    },
+    {
+      "id": 5,
+      "name": "Tzatziki",
+      "description": "Tzatziki is a creamy and refreshing Greek dip made with yogurt, grated cucumber, garlic, and a blend of herbs. It's often served with pita bread or as a condiment for grilled meats. Tzatziki is beloved for its cool and tangy flavor, making it a perfect accompaniment to Mediterranean dishes.",
+      "price": 7.99,
+      "image": "https://placehold.co/400x300?text=Tzatziki",
+      "ingredients": [
+        "Yogurt",
+        "Grated cucumber",
+        "Garlic",
+        "Herbs"
+      ],
+      "tags": {
+        "dietaryPreferences": ["vegetarian", "lactose-free"],
+        "allergens": []
+      }
+    },
+    {
+      "id": 6,
+      "name": "Dolmades",
+      "description": "Dolmades are a Mediterranean delight, featuring grape leaves stuffed with seasoned rice and aromatic herbs, served with a drizzle of lemon sauce. These bite-sized parcels are bursting with flavor and are often enjoyed as an appetizer or part of a meze platter.",
+      "price": 8.99,
+      "image": "https://placehold.co/400x300?text=Dolmades",
+      "ingredients": [
+        "Grape leaves",
+        "Seasoned rice",
+        "Aromatic herbs",
+        "Lemon sauce"
+      ],
+      "tags": {
+        "dietaryPreferences": ["vegan", "gluten-free"],
+        "allergens": []
+      }
+    },
+    {
+      "id": 7,
+      "name": "Mediterranean Pasta",
+      "description": "Mediterranean Pasta is a flavorful dish featuring pasta tossed with sun-dried tomatoes, Kalamata olives, artichoke hearts, and crumbled feta cheese. It's a Mediterranean twist on classic pasta that combines the richness of olives and tomatoes with the creaminess of feta cheese.",
+      "price": 14.99,
+      "image": "https://placehold.co/400x300?text=Mediterranean+Pasta",
+      "ingredients": [
+        "Pasta",
+        "Sun-dried tomatoes",
+        "Kalamata olives",
+        "Artichoke hearts",
+        "Feta cheese"
+      ],
+      "tags": {
+        "dietaryPreferences": ["vegetarian"],
+        "allergens": ["contains-gluten"]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Grilled Octopus",
+      "description": "Grilled Octopus is a seafood delicacy known for its tender and smoky flavor. It's prepared by grilling octopus until it's charred and served with a drizzle of lemon and olive oil. This dish is a must-try for seafood enthusiasts looking to savor the taste of the Mediterranean.",
+      "price": 18.99,
+      "image": "https://placehold.co/400x300?text=Grilled+Octopus",
+      "ingredients": [
+        "Grilled octopus",
+        "Lemon",
+        "Olive oil"
+      ],
+      "tags": {
+        "dietaryPreferences": [],
+        "allergens": []
+      }
+    },
+    {
+      "id": 9,
+      "name": "Saganaki",
+      "description": "Saganaki is a delightful Greek appetizer featuring flaming cheese. Typically, a slice of cheese (often Kefalotyri, Graviera, or Halloumi) is dredged in flour, pan-fried, and then set ablaze at the table with the help of some brandy. The result is a gooey, slightly crispy, and deliciously cheesy dish that's served with a squeeze of lemon and bread.",
+      "price": 11.99,
+      "tags": ["vegan", "gluten-free", "contains-nuts", "contains-gluten"],
+      "ingredients": ["Cheese", "Brandy", "Lemon", "Flour"],
+      "image": "https://placehold.co/400x300?text=Saganaki"
+    },
+    {
+      "id": 10,
+      "name": "Greek Lemon Chicken",
+      "description": "Greek Lemon Chicken is a flavorful dish featuring roasted chicken with a lemon and oregano marinade. It's typically served with roasted potatoes, creating a harmonious blend of citrusy and savory flavors.",
+      "price": 16.99,
+      "tags": ["lactose-free", "contains-gluten"],
+      "ingredients": ["Chicken", "Lemon", "Oregano", "Potatoes"],
+      "image": "https://placehold.co/400x300?text=Greek+Lemon+Chicken"
+    }
+  ]
+}

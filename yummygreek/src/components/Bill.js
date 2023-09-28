@@ -9,16 +9,16 @@ function Bill() {
 
   return (
     <div>
-      <h1 style={{margin: '3rem'}}>Order Page</h1>
+      <h1 style={{margin: '3rem'}}>Your Order</h1>
       <div className='bill-container'>
         <div className='bill-content'>
-          <h3>Your order</h3>
+          <h3>Ordered Dishes</h3>
           <hr/>
           {/* Show name and price for each dish ordered */}
           {orderedDishes.map((dish) => (
             <div className='ordered-dish'>
+              <p className='ordered-dish-price'>{dish.price}&euro;</p>
               <p>{dish.name}</p>
-              <p>{dish.price}&euro;</p>
             </div>
           ))}
           <hr/>

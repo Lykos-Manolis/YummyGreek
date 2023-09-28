@@ -33,10 +33,10 @@ h1{
   
   .card{
     transition: 0.3s;
-    background: #e4cdb4;
+    background: #e4cdb4e1;
     border: 2px solid #e4cdb4;
     color: #052040;
-    box-shadow: 0 0px 20px -7px  #e4cdb4;
+    box-shadow: 0 0px 2px  #e4cdb4;
   }
   
   .card-body{
@@ -44,27 +44,36 @@ h1{
   }
   
   .btn-primary{
-    background: #B56576 !important;
-    box-shadow: 2px 2px #6E3C47;
-    border: 0 solid red;
-  }
-  
-  .btn-secondary{
-    box-shadow: 2px 2px #565656;
-    border: none;
-  }
-  
-  .btn-danger{
-    background: #E56B6F;
-    box-shadow: 2px 2px darkred;
-    border: none;
+    transition: 0.3s;
+    background: #d58f4517 !important;
+    box-shadow: 2px 2px #8c5a2594;
+    border: 0;
   }
   
   .btn-primary:active{
     background: #A75B6B !important;
-    border-top: 3px solid #6E3C47 !important;
-    border-left: 3px solid #6E3C47 !important;
+    border-top: 3px solid #8c5a25 !important;
+    border-left: 3px solid #8c5a25 !important;
     box-shadow: none;
+  }
+
+  .btn-primary:hover{
+    background: #bc772d !important;
+    border: 0 solid #A75B6B;
+  }
+
+  .btn-secondary{
+    transition: 0.3s;
+    background-color: #4f2b2b28;
+    box-shadow: 2px 2px #2e2d2d82;
+    border: none;
+  }
+
+  .btn-secondary:hover{
+    transition: 0.3s;
+    background-color: #53161651 !important;
+    box-shadow: 2px 2px #2e2d2d82;
+    border: none;
   }
   
   .btn-secondary:active{
@@ -73,17 +82,24 @@ h1{
     box-shadow: none;
   }
   
+  .btn-danger{
+    transition: 0.3s;
+    background: #d5704527;
+    box-shadow: 2px 2px rgba(139, 0, 0, 0.505);
+    border: 0;
+  }
+
+  .btn-danger:hover{
+    background: #ce5c3f;
+    box-shadow: 2px 2px darkred;
+  }
+  
   .btn-danger:active{
     border-top: 3px solid darkred !important;
     border-left: 3px solid darkred !important;
     box-shadow: none;
   }
-  
-  .btn-primary:hover{
-    background: #A75B6B;
-    border: 0 solid #A75B6B;
-  }
-  
+
   .modal-content{
     background-color: #014137;
     box-shadow: 0 0 20px black;
@@ -111,6 +127,8 @@ h1{
     z-index: 1;
     width: 100%;
     margin-top: 100px;
+    display: grid;
+    justify-content: center;
   }
 
   .bill-container > svg{
@@ -118,6 +136,19 @@ h1{
   }
 
   .ordered-dish{
+    width: fit-content;
     display: flex;
-    justify-content: space-around;
+  }
+
+  .ordered-dish-price{
+    margin-right: 20px;
+  }
+
+  .dropdown-menu{
+    background-color: #e4cdb4;
+  }
+
+  .dropdown-item:hover{
+    background-color: bisque !important;
+    border: 1px solid black;
   }
