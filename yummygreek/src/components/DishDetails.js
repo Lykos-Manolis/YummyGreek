@@ -1,9 +1,14 @@
+// Hooks
 import React from 'react'
+
+// Bootstrap Components
 import Modal from 'react-bootstrap/Modal';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
 
+// Render modal
 function DishDetails(props) {
+    // Get ingredients for dish
     let ingredients = props.dish.ingredients.map((value) => (
         <Badge bg="secondary">{value}</Badge>
     ));

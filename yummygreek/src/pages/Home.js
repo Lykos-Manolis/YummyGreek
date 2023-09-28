@@ -1,3 +1,4 @@
+// Components
 import React from 'react';
 import Header from '../components/Header';
 import DishList from '../components/DishList';
