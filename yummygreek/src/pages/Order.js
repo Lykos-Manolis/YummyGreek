@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../components/Header';
+import Bill from '../components/Bill';
 
 function Order() {
   return (
     <div>
       <Header/>
-      <h1>Order Page</h1>
-      <p>This is the Order page content.</p>
+      <Bill/>
     </div>
   );
 }

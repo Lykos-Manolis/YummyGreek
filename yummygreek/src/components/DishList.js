@@ -31,7 +31,7 @@ const DishList = () => {
         <h1>Menu</h1>
         <div className="dish-list">
             {filteredDishes.map((dish) => (
-            <DishCard key={dish.id} dish={dish} />
+            <DishCard key={dish.id} dish={dish}/>
             ))}
         </div>
     </div>
