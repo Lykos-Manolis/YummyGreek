@@ -1,3 +1,5 @@
+# YummyGreek
+
 # About the project
 This project is created as an assignment and it utilizes the following skills:
 - JavaScript Frameworks knowledge
