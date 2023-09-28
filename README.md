@@ -1,5 +1,7 @@
 # YummyGreek
 
+![alt text](https://github.com/Lykos-Manolis/YummyGreek/blob/main/yummygreek/previewImages/3.png)
+
 # About the project
 This project is created as an assignment and it utilizes the following skills:
 - JavaScript Frameworks knowledge
@@ -19,14 +21,22 @@ We can do that for example by deploying a local JSON server in a different port 
 # Main Page
 The main page contains every available dish in the database, a navbar with a link to the ordered dishes, a filter bar and details for each dish.
 
+![alt text](https://github.com/Lykos-Manolis/YummyGreek/blob/main/yummygreek/previewImages/3.png)
+
 # Dish Cards
 The app accesses a [JSON database] through a local server and shows previews of each of the restaurant's dishes in the [main page].
+
+![alt text](https://github.com/Lykos-Manolis/YummyGreek/blob/main/yummygreek/previewImages/2.png)
 
 # Dish Details Modal
 Each dish preview is creating a new modal containing the dish's details, including the name, the description, an image and the ingredients used in the dish. The modal can be easily accessed through the details button in each card.
 
+![alt text](https://github.com/Lykos-Manolis/YummyGreek/blob/main/yummygreek/previewImages/1.png)
+
 # Order Page
 The order page contains the user's ordered dishes and their total cost.
+
+![alt text](https://github.com/Lykos-Manolis/YummyGreek/blob/main/yummygreek/previewImages/4.png)
 
 # Known Issues
 Due to the length of the deadline, the following issues are still present.
